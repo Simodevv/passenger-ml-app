@@ -2,8 +2,8 @@ name: Deploy Streamlit to Azure
 
 on:
   push:
-    branches:
-      - main  # or the branch you want to trigger deployment
+    branches: [ "main" ]
+      #- main  # or the branch you want to trigger deployment
 
 jobs:
   build-and-deploy:
