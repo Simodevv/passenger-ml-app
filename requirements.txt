@@ -1,0 +1,6 @@
+streamlit
+pycaret==3.3.2
+pandas==2.1.4
+streamlit-pandas-profiling==0.1.3
+ydata_profiling==4.17.0
+pydantic-settings==2.11.0
