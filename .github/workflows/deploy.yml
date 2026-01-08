@@ -36,7 +36,7 @@ jobs:
           docker push ${{ secrets.ACR_LOGIN_SERVER }}/passenger-satisfaction-app:latest
 
       - name: Deploy to Azure App Service
-        uses: azure/webapps-container-deploy@v2
+        uses: azure/webapps-container-deploy@v1
         with:
           app-name: ${{ secrets.APP_SERVICE_NAME }}
           resource-group: ${{ secrets.RESOURCE_GROUP }}
